@@ -1,5 +1,5 @@
 {
-    "name": "drupalista-br/checkoutcielo-library",
+    "name": "rigolon/checkoutcielo-library",
     "description": "Biblioteca para integração ao perfil CheckoutCielo v2+ da operadora Cielo de Cartões.",
     "homepage": "http://lojas.nortaox.com",
     "license": "GPL-2.0+",
