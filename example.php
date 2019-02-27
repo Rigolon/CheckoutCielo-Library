@@ -11,8 +11,7 @@ use
   CieloCheckout\Payment,
   CieloCheckout\Customer,
   CieloCheckout\Options,
-  CieloCheckout\Transaction,
-  Cielo\Merchant;
+  CieloCheckout\Transaction;
 
 include_once "vendor/autoload.php";
 
