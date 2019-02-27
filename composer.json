@@ -1,7 +1,7 @@
 {
     "name": "rigolon/checkoutcielo-library",
     "description": "Biblioteca para integração ao perfil CheckoutCielo v2+ da operadora Cielo de Cartões.",
-    "homepage": "http://lojas.nortaox.com",
+    "homepage": "https://www.pontadesign.com.br",
     "license": "GPL-2.0+",
     "keywords": ["Pagamento", "Cielo", "Cartão de Crédito", "Integração"],
     "authors": [
