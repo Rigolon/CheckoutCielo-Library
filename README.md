@@ -1,6 +1,4 @@
 * Esta biblioteca implementa a modalidade [Checkout Cielo](http://developercielo.github.io/Checkout-Cielo/);
-* Para a modalidade [Webservice](https://developercielo.github.io/Webservice-1.5/), dê uma olhada na biblioteca
-em https://github.com/DeveloperCielo/Webservice-1.5-php
 
 #Instalação:
 
