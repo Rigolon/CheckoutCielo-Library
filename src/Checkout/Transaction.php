@@ -3,7 +3,6 @@
 namespace CieloCheckout;
 
 use
-  Cielo\Merchant,
   Httpful\Request;
 
 class Transaction {
@@ -42,7 +41,7 @@ class Transaction {
     $Merchant,
     $Order;
 
-  public function __construct(Merchant $Merchant, Order $Order) {
+  public function __construct($Merchant, Order $Order) {
     $this->Merchant = $Merchant;
     $this->Order = $Order;
   }
@@ -54,7 +53,7 @@ class Transaction {
    *   Whether or not the response from Cielo should be validated.
    */
   public function request_new_transaction($validate_response = TRUE) {
-    $merchant_key = $this->Merchant->getAffiliationKey();
+    $merchant_key = $this->Merchant;
 
     $response = Request::post(self::ENDPOINT)
       ->withoutStrictSsl()
