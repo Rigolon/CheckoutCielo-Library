@@ -106,10 +106,10 @@ try {
   $Order = new Order($properties);
   
   // Instantiate merchant's object.
-  $Merchant = new Merchant($id, $key);
+  $Merchant_id = 'xxxxxxxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx';
   
   // Instantiate transaction's object.
-  $Transaction = new Transaction($Merchant, $Order);
+  $Transaction = new Transaction($Merchant_id, $Order);
   $Transaction->request_new_transaction();
   
   print_r($Transaction->response);
