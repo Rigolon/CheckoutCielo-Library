@@ -7,8 +7,7 @@ em https://github.com/DeveloperCielo/Webservice-1.5-php
 1. No composer.json, adicione:
     ```javascript
     "require": {
-        "developercielo/webservice-1.5-php": "dev-master#de6d2532643f9d4fba52d12bc1e646bd42355d08",
-        "drupalista-br/checkoutcielo-library": "dev-2.x-dev"
+        "rigolon/checkoutcielo-library": "dev-2.x-dev"
     }
     ```
 
