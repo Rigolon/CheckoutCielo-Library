@@ -14,6 +14,7 @@ class Order extends Commons {
      * Text shown on the buyer's bill right after merchant's name.
      */
     $SoftDescriptor,
+    $MaxNumberOfInstallments,
     $Cart,
     $Shipping,
     $Payment,
@@ -27,6 +28,9 @@ class Order extends Commons {
     'Shipping' => [
       'empty' => ['negate' => FALSE],
     ],
+    'MaxNumberOfInstallments' => [
+      // Nothing
+    ]
   ];
 
   protected function validate() {
