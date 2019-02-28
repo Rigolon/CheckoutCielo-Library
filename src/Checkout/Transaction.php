@@ -70,7 +70,7 @@ class Transaction {
   }
   
   /**
-   * Redirects customers to Cielo for completing their checkout payment.
+   * Get URL to Redirects customers to Cielo for completing their checkout payment.
    */
   public function get_url_redirect_to_cielo() {
     return $this->response->settings->checkoutUrl;
