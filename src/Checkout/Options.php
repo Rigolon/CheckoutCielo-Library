@@ -12,7 +12,7 @@ class Options extends Commons {
       'is_bool' => [],
     ],
     'ReturnUrl' => [
-      'empty' => ['negate' => TRUE],
+      // Nothing
     ]
   ];
 }
