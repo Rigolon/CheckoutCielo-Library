@@ -68,6 +68,13 @@ class Transaction {
       $this->response_validate();
     }
   }
+  
+  /**
+   * Redirects customers to Cielo for completing their checkout payment.
+   */
+  public function get_url_redirect_to_cielo() {
+    return $this->response->settings->checkoutUrl;
+  }
 
   /**
    * Redirects customers to Cielo for completing their checkout payment.
@@ -77,7 +84,8 @@ class Transaction {
       throw new \Exception("Can not redirect to Cielo. You gotta run this script from a web browser.");
     }
     else {
-      header("Location: {$this->response->settings->checkoutUrl}");
+      $url = $this->get_url_redirect_to_cielo();
+      header("Location: $url");
     }
   }
 
